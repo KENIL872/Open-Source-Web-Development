@@ -30,8 +30,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Sample user data
 const users = [
-    { name: 'Kenil Vastarpara', email: 'kenilvastarpar872@gmail.com', password: 'kenil@132' },
     { name: 'Arpita Borda', email: 'arpitab4101@gmail.com', password: 'arpita123' },
+    { name: 'Kenil Vastarpara', email: 'kenilvastarpar872@gmail.com', password: 'kenil@132' },
     { name: 'Harsh Mendapra', email: 'harshmendapara@gmail.com', password: 'harsh123' }
 ];
 

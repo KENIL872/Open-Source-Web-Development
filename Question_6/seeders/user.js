@@ -5,7 +5,7 @@ const {encrypt} = require('../functions/hashing');
 const seed = async () => {
     const admin = await Role.findOne({role: 'admin'});
     const users = [
-        {name: 'Kenil Vastarpara', email: 'kenilvastarpara@gmail.com', password: await encrypt('kenil@123'), role_id: admin._id}
+        {name: 'Arpita Borda', email: 'Arpitaborda4101@gmail.com', password: await encrypt('arpita@123'), role_id: admin._id}
     ];
 
     await User.deleteMany();
