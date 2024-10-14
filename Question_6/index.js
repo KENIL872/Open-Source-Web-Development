@@ -12,7 +12,7 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(session({secret: 'deepganatra', resave: false, saveUninitialized: false}));
+app.use(session({secret: 'kenil', resave: false, saveUninitialized: false}));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
